@@ -19,7 +19,7 @@ from desktop.views import _ko
 from django.utils.translation import ugettext as _
 %>
 
-<%def name="nav_tags()">
+<%def name="nav_tags(readOnly=False)">
   <link href="${ static('desktop/ext/css/selectize.css') }" rel="stylesheet">
 
   <script type="text/html" id="nav-tags-template">
